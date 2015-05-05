@@ -1,5 +1,3 @@
-package linearAlgebra;
-
 import java.text.DecimalFormat;
 
 /**

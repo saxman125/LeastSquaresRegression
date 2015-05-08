@@ -1,3 +1,5 @@
+package LeastSquaresRegression;
+
 import java.text.DecimalFormat;
 
 /**

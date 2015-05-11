@@ -15,8 +15,8 @@ public class RegressionVisualizer extends JPanel {
 	private static final Vector3 xAxis = new Vector3(1, 0, 0);
 	private static final Vector3 yAxis = new Vector3(1E-6, 1, 0);
 
-	private static final int WIDTH = 1000;
-	private static final int HEIGHT = 1000;
+	private static final int WIDTH = 1100;
+	private static final int HEIGHT = 1100;
 	
 	private ArrayList<Vector3> points = new ArrayList<>();
 	private ArrayList<Vector3> lines = new ArrayList<>();	
@@ -59,7 +59,7 @@ public class RegressionVisualizer extends JPanel {
 			arg0.drawLine(min.x, min.y, max.x, max.y);
 		}
 		arg0.setColor(Color.RED);
-		drawText(arg0, 5, HEIGHT - 100);
+		drawText(arg0, 5, 25);
 
 	}
 	
